@@ -1,0 +1,203 @@
+/* 导航栏部分开始 */
+.nav_bar {
+    position: absolute;
+    width: 1145px;
+    left: 170px;
+    top: 109px;
+    background: #fff;
+    border-top: 1px solid #807e7e;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.nav_bar ul li {
+    float: left;
+    text-align: center;
+}
+
+.nav_bar ul li:hover {
+    background: #f8b62d;
+}
+
+.nav_bar ul li a {
+    display: block;
+    font-size: 14px;
+    color: #4e4e4e;
+    width: 125px;
+    line-height: 58px;
+    height: 58px;
+}
+
+.nav_bar .search {
+    position: absolute;
+    top: 15px;
+    right: 226px;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 16px;
+}
+
+.nav_bar .search .iconfont {
+    margin-right: 2px;
+}
+
+.nav_bar .contribute {
+    width: 131px;
+    line-height: 58px;
+    font-size: 14px;
+    background: #f4b440;
+    text-align: center;
+}
+
+.nav_bar .contribute a {
+    color: #ffffff;
+}
+
+/* 导航栏部分结束 */
+
+/*主页面内容容器开始*/
+.content {
+
+
+}
+
+/*主页面内容容器结束*/
+/* 宣传图片部分开始 */
+.public_pic {
+    width: 880px;
+    height: 200px;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+
+.public_pic a {
+
+}
+
+.public_pic .slider {
+    position: absolute;
+    top: 189px;
+    left: 400px;
+}
+
+.public_pic .slider ul li {
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 5px;
+    background: #fff;
+    margin-right: 5px;
+}
+
+.public_pic .slider ul li:hover {
+    background: #f8b62d;
+}
+
+/* 宣传图片部分结束 */
+
+
+/*游戏中心部分开始*/
+.game_center {
+    width: 880px;
+    background: #fff;
+    padding-top: 10px;
+}
+
+.game_center h3 {
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-left: 18px;
+}
+
+.game_center .cap {
+    width: 184px;
+    height: 300px;
+    margin: 0px 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.game_center .cap img {
+    position: absolute;
+    top: -3px;
+    left: -7px;
+}
+
+.game_center .cap .cap_title {
+    position: absolute;
+    top: 253px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #565656;
+}
+
+/*游戏中心部分结束*/
+/*游戏中心右侧开始*/
+.game_center_right {
+    background: #fff;
+    left: 900px;
+    top: 63px;
+
+}
+
+.game_center_right h3 {
+    height: 45px;
+    line-height: 45px;
+    margin-left: 15px;
+}
+
+.game_center_right .cap {
+
+}
+
+.game_center_right .cap .cap_title {
+    /*position: absolute;*/
+    /*top:0px;*/
+    /*left: 15px;*/
+    font-size: 15px;
+    padding-left: 15px;
+    height: 43px;
+    line-height: 43px;
+}
+
+/*游戏中心右侧结束*/
+
+/*最近更新部分开始*/
+.renew {
+    margin-top: 23px;
+    padding-top: 12px;
+    background: #fff;
+    overflow: hidden;
+    width: 880px;
+}
+
+
+.renew h3 {
+    font-size: 15px;
+    height: 57px;
+    line-height: 57px;
+    margin-left: 18px;
+}
+.renew .cap{
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-bottom: 36px;
+}
+
+.renew .cap .cap_title {
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+}
+.renew .cap .cap_1{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #9c9c9c;
+}
+.renew .cap .cap_2{
+    font-size: 14px;
+    color: #9c9c9c;
+}
+
+
+/*最近更新部分结束*/

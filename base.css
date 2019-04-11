@@ -1,0 +1,32 @@
+
+/*
+* @Author: MyAcer
+* @Date:   2018-12-26 15:49:33
+* @Last Modified by:   MyAcer
+* @Last Modified time: 2018-12-26 17:44:48
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix::before,
+.clearfix::after{
+	content: "";
+	display:table;
+}
+.clearfix:after{
+    clear: both;
+}
+
